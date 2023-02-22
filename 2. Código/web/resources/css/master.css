@@ -1,0 +1,197 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: url(../img/fondoventas.JPG) no-repeat center top;
+  background-size: cover;
+  font-family: sans-serif;
+  height: 100vh;
+}
+
+.login-box {
+  width: 320px;
+  height: 420px;
+  background: #95a5a6;
+  color: #000000;
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  box-sizing: border-box;
+  padding: 70px 30px;
+}
+
+.login-box .logo {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  position: absolute;
+  top: -50px;
+  left: calc(50% - 50px);
+}
+
+.login-box h1 {
+  margin: 0;
+  padding: 0 0 20px;
+  text-align: center;
+  font-size: 22px;
+}
+
+.login-box label {
+  margin: 0;
+  padding: 0;
+  font-weight: bold;
+  display: block;
+}
+
+.login-box input {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.login-box input[type="text"], .login-box input[type="password"] {
+  border: none;
+  border-bottom: 1px solid #fff;
+  background: transparent;
+  outline: none;
+  height: 40px;
+  color: #fff;
+  font-size: 16px;
+}
+
+.login-box input[type="submit"] {
+  border: none;
+  outline: none;
+  height: 40px;
+  background: #b80f22;
+  color: #fff;
+  font-size: 18px;
+  border-radius: 20px;
+}
+
+.login-box input[type="submit"]:hover {
+  cursor: pointer;
+  background: #ffc107;
+  color: #000;
+}
+
+.login-box a {
+  text-decoration: none;
+  font-size: 12px;
+  line-height: 20px;
+  color: darkgrey;
+}
+
+.login-box a:hover {
+  color: #fff;
+}
+
+.button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.button1 {
+    border-radius: 8px;
+}
+.button3 {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 2px 2px;
+    cursor: pointer;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 8px;
+}
+
+.button4 {
+    background-color: #ff0033;
+    border: none;
+    color: white;
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 2px 2px;
+    cursor: pointer;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 8px;
+}
+
+.col-md-3 {
+   background-color: #ABBAEA;
+}
+.col-md-8 {
+   background-color: #E6E6FA;
+}
+
+.fondo {
+   background-color: #D1E1EC;
+   height: 600px;
+}
+
+.menuColor {
+   background-color: #4A75B5;
+}
+
+.piePag {
+   background-color: #4A75B5;
+      height: 25px;
+      font-size: 16px;
+          color: white;
+}
+
+.table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+tr:hover {background-color: coral;
+}
+
+.table .thead-color th{
+    color:#fff;
+    background-color:#008B8B;
+    border-color:#008B8B
+}
+
+.apartado1{
+   border:10px solid #006400;
+   border-radius:2px;
+}
+
+.apartado2{
+   border:10px solid #ADFF2F;
+   border-radius:2px;
+}
+
+.impresion { 
+    padding: 1px; 
+    margin: 1px; 
+    border: 2px solid black; 
+    float: left; 
+    width: 150px; 
+}
